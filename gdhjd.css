@@ -1,0 +1,59 @@
+@import '~antd/dist/antd.css';
+.code-box-demo {
+	text-align: center;
+}
+.ant-layout-footer {
+	color: #fff;
+	background: #7dbcea;
+}
+[data-theme='dark'] .ant-layout-header {
+	background: #6aa0c7;
+}
+[data-theme='dark'] .ant-layout-footer {
+	background: #6aa0c7;
+}
+.ant-layout-footer {
+	line-height: 1.5;
+}
+.ant-layout-sider {
+	color: #fff;
+	height: 90vh;
+	line-height: 120px;
+	background: #3ba0e9;
+}
+[data-theme='dark'] .ant-layout-sider {
+	background: #3499ec;
+}
+.ant-layout-content {
+	height: 100vh;
+	color: #fff;
+	line-height: 120px;
+	background: rgba(16, 142, 233, 1);
+}
+.top_row {
+	display: flex;
+	justify-content: center;
+}
+[data-theme='dark'] .ant-layout-content {
+	background: #107bcb;
+}
+.code-box-demo > .ant-layout + .ant-layout {
+	margin-top: 48px;
+}
+[class~='ant-col'] {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-bottom: 10%;
+	border: 1px solid rgba(5, 4, 46, 0.534);
+}
+[class~='ant-col'] > div {
+	font-size: 14px;
+	line-height: 120px;
+	background: #3d4449;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+}
+img {
+	background-color: black;
+}
